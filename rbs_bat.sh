@@ -1,8 +1,8 @@
 #!/bin/sh
 
-dstat -tcm -C 0,1,2,3,4,5,6,7 --output ruby_benchmark_suite_dstat_result.csv &
+dstat -tcm -C 0,1,2,3,4,5,6,7 --output ~/dstat_results/ruby_benchmark_suite_dstat_result.csv &
 
-cd ruby_benchmark_suite
+cd ~/ruby_benchmark_suite
 
 rbenv shell 2.1.2
 ruby -v
